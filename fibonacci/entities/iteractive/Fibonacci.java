@@ -5,16 +5,12 @@ import java.util.List;
 
 public class Fibonacci {
 
-	private int limit;
-	int currentNumber;
-	int previousNumber;
+	private int currentNumber;
+	private int previousNumber;
 	List<Integer> fibonacciList = new ArrayList<>();
 	
-	public Fibonacci(int limit) {
-		this.limit = limit;
-	}
 	
-	public ArrayList<Integer> fibonacci() {
+	public ArrayList<Integer> fibonacciGenerator(int limit) {
 		for(int i = 1; i <= limit; i++) {
 			if(i == 1) {
 				currentNumber = 1;

@@ -11,8 +11,8 @@ public class FibonacciApp {
 		
 		List<Integer> resultSet = new ArrayList<>();
 		
-		Fibonacci fibonacci = new Fibonacci(10);
-		resultSet = fibonacci.fibonacci();
+		Fibonacci fibonacci = new Fibonacci();
+		resultSet = fibonacci.fibonacciGenerator(10);
 		
 		for(int i : resultSet) {
 			System.out.println(i);
