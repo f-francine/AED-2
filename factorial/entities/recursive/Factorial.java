@@ -1,0 +1,8 @@
+package entities.recursive;
+
+public class Factorial {
+
+	public static int factorial(int number) {
+		return (number > 1) ? number * factorial(number - 1) : 1;
+	}
+}
