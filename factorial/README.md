@@ -4,11 +4,11 @@ This program calculates the factorial of a given number. <br>
 You will find inside each folder (application and entities) recursive and iterative versions of this algorithm. 
 
 ## How to run
-- After you have cloned this repository, go until `factorial` folder, open your terminal/bash there and run the command:
+- After you have cloned this repository, go until `factorial` folder, open your terminal/bash there and run the command: <br>
 `javac application/recursive/FactorialAPP.java` <br>
 This command will generate a .class file, witch is a compiled archive in java.
-Now, lets run our compiled program:
-`java application.recursive.FactorialAPP`
+Now, lets run our compiled program: <br>
+`java application.recursive.FactorialAPP` <br>
 And that's it! 
 
 ##### Note¹: 
